@@ -36,6 +36,13 @@ div
 
 img#image1 {
     float:right;
-    width: 400;
-    height: 400;
+    width:400;
+    height:400;
+}
+
+img#image2 {
+    float:right;
+    width:300;
+    height:400;
+
 }
