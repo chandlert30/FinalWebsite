@@ -8,6 +8,7 @@ body {
     margin: 0 10%;
 }
 
+
 h1 {
     color: Black;
     text-align: center;
@@ -31,7 +32,8 @@ h3 {
 div#content{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;  
+     
     
 }
 
@@ -42,17 +44,52 @@ div#learnmore {
 }
 
 
+p.Contact {
+    text-align:center;
+    margin:0.5;
+    font-size: xx-large;
+}
+p.BeginnerProgram {
+    font-family:sans-serif;
+    text-align:center;
+}
+
+p.title {
+    font-size:x-large;
+    font-style:arial black;
+}
+
+p.WhyLearn {
+    text-align:center;
+}
+
+p.intro {
+    text-align:right;
+}
+
+div.bottom {
+    display:flex;
+  width:fit-content;
+  height:max-content;
+  border:0.2em royalblue dotted;
+  justify-content: left;
+  background-color: lightblue !important;
+
+}
+
 
 img#image1 {
     float:right;
     width:400;
     height:400;
+    margin:2em
 }
 
 img#image2 {
     float:right;
     width:300;
     height:400;
+    margin:1em
 
 }
 
@@ -60,4 +97,56 @@ img#image3 {
     float:right;
     width:250;
     height:500;
+    margin:1em
+}
+
+img#image4 {
+    float:left;
+    width:300;
+    height:300;
+    margin:1em
+}
+
+
+img#image6 {
+    float:left;
+    width: 300;
+    height:300;
+    margin:1em
+}
+
+img#image7 {
+    float:right;
+    width:400;
+    height:300;
+    margin: 0.5em;
+}
+
+img#image8 {
+    float:left;
+    width: 300px;
+    height:450px;
+    margin: 0.5em;
+
+}
+
+img#image9 {
+    float:left;
+    width:400;
+    height: 400;
+    margin: 0.5em;
+}
+
+img#image10 {
+    float:right;
+    width: 300;
+    height: 450;
+    margin:0.5em;
+}
+
+img#image11 {
+    float:right;
+    width:400;
+    height:400;
+    margin:0.5em
 }
