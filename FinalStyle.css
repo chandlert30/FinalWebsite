@@ -31,8 +31,8 @@ h3 {
 
 div#content{
     display: flex;
-    width: 100%;
-    justify-content: space-evenly;  
+  
+    justify-content: space-between;  
      
     
 }
@@ -148,5 +148,13 @@ img#image11 {
     float:right;
     width:400;
     height:400;
-    margin:0.5em
+    margin:0.5em;
 }
+
+img#image12 {
+    float:right;
+    width:400;
+    height:400;
+    margin: 0.2em
+}
+
